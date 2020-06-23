@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 gulp.task('autoprefix - плагин', function () {
     return gulp.src('css/dr-custom.css')
         .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
+            browsers: ['last 15 versions'],
             cascade: false
         }))
         .pipe(gulp.dest('css/'));
