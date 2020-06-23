@@ -1,3 +1,6 @@
 /node_modules/
 /scss/
 /.idea
+/package.json
+/package-lock.json
+/gulpfile.js
