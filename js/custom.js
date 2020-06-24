@@ -34,3 +34,22 @@ $(document).ready(function() {
     // Запускаем слайдшоу
     theRotator();
 });
+
+
+let modal = ".dr-modal";
+let modalBtnClose = ".dr-modal__close";
+let activeClass = "is-active";
+
+$(".dr-btn").on('click', function (e) {
+    e.preventDefault();
+    let btnModalId = $(this).data('modal');
+    if (btnModalId) {
+        $(`${modal}[id="${btnModalId}"]`).addClass(activeClass);
+    }
+});
+$(modalBtnClose).on('click', function () {
+    $(this).closest(`${modal}`).removeClass(activeClass);
+});
+function drModalHide() {
+    $(modalBtnClose).click();
+}
