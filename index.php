@@ -13,7 +13,7 @@
   <a href="page_card.php">Страница Карт</a>
   <a href="page_payment_error.html">Страница ошибки оплаты</a>
   <a href="page_payment_success.html">Страница успешной оплаты</a>
+  <a href="footer-test.php">Тест футера</a>
 </div>
 
 
-<?php require_once('foot.php');?>
