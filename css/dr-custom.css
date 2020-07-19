@@ -778,13 +778,15 @@ img {
   justify-content: space-between !important; }
 
 .dr-footer {
-  background: #dedad7;
+  background: #f4f3f1;
   padding: 0; }
   .dr-footer__contact {
     padding: 4em 0; }
     .dr-footer__contact .menu_footer_wrap {
       padding: 0;
       margin: 0; }
+  .dr-footer__inner {
+    background: #dedad7; }
   .dr-footer__marks {
     margin: 0;
     padding: 1.2em 0;
@@ -963,6 +965,8 @@ img {
     display: block !important; }
 
 .pre-footer-phone {
+  margin-right: 15px;
+  margin-left: 15px;
   border-bottom: 1px solid #84807d; }
 
 @media screen and (max-width: 1024px) {
