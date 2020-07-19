@@ -1,5 +1,13 @@
 <footer class="dr-footer">
 
+    <div class="pre-footer-phone hidden-lg hidden-md">
+        <a href="tel:88006007707" class="phone-icon"></a>
+        <div class="phone-numbers">
+            <div><a href="tel:88006007707">8 800 600-77-07</a></div>
+            <div><a href="tel:84992710503">8 499 271-05-03</a></div>
+        </div>
+    </div>
+
     <form action="/" class="dr-form-feedback">
         <div class="dr-container">
             <div class="dr-row">
@@ -15,7 +23,7 @@
                         <input type="email"
                                name="email"
                                class="dr-input"
-                               placeholder="Введите ваш имейл"
+                               placeholder="Введите ваш email"
                                 required>
                         <button type="submit" class="dr-btn dr-btn__brown_light">Подписаться</button>
                     </div>
@@ -29,7 +37,7 @@
             <div class="dr-footer__contact">
                 <div class="menu_footer_wrap">
                     <div class="dr-row align-items-start">
-                        <div class="large-3 medium-4 small-4 columns">
+                        <div class="large-3 medium-4 small-4 columns hidden-xs">
 
                             <p class="dr-footer_list-header dr-h5">Компания</p>
 
@@ -45,7 +53,7 @@
                                 <li><a href="/privacy_policy/">Конфиденциальная информация</a></li>
                             </ul>
                         </div>
-                        <div class="large-3 medium-4 small-4 columns">
+                        <div class="large-3 medium-4 small-4 columns hidden-xs">
 
                             <p class="dr-footer_list-header dr-h5">Сервис</p>
 
@@ -67,7 +75,7 @@
                                 <li><a href="/gift-cards/">Подарочные карты</a></li>
                             </ul>
                         </div>
-                        <div class="large-3 medium-4 small-4 columns">
+                        <div class="large-3 medium-4 small-4 columns hidden-xs">
 
                             <p class="dr-footer_list-header dr-h5">Контакты</p>
 
