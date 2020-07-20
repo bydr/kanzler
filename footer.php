@@ -13,12 +13,13 @@
             <div class="dr-row">
                 <div class="dr-col-12 dr-col-md-6">
                     <div class="dr-form-feedback__info">
-                        <p class="dr-h5">Подписаться на акции и спецпредложения</p>
+                        <p class="dr-h5 dr-form-feedback__title">Подписаться на акции и спецпредложения</p>
                         <p class="dr-text-small">Нажимая кнопку подписаться, я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с
                             <a target="_blank" href="/privacy_policy">политикой конфиденциальности.</a></p>
                     </div>
                 </div>
                 <div class="dr-col-12 dr-col-md-6">
+                    <p class="dr-h5 text-center dr-form-feedback__title_respons">Подписаться на акции и спецпредложения</p>
                     <div class="dr-form-feedback__controls">
                         <input type="email"
                                name="email"
@@ -112,10 +113,10 @@
                     <p class="dr-text__small c-black_superlight">© 2020, KANZLER. Все права защищены</p>
                     <div class="dr-footer__marks_icons">
                         <a href="https://itunes.apple.com/ru/app/kanzler/id1028472400?mt=8" rel="nofollow" target="_blank">
-                            <img src="image/icons/appstore.png" alt="">
+                            <img src="image/icons/appstore.svg" alt="">
                         </a>
                         <a href="https://play.google.com/store/apps/details?id=com.notissimus.kanzler.android&hl=ru" rel="nofollow" target="_blank">
-                            <img src="image/icons/googleplay.png" alt="">
+                            <img src="image/icons/googleplay.svg" alt="">
                         </a>
                     </div>
                 </div>
