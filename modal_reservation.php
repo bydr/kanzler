@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="dr-form-group">
-                            <p class="dr-form-label dr-text__small">Ваш размер</p>
+                            <p class="dr-form-label dr-text__small">Выбрать магазин</p>
                             <div class="dr-form-control">
                                 <a href="#" class="dr-btn-iconbox">
                                 <span class="dr-btn-iconbox__icon  bg-brown__lighten">
