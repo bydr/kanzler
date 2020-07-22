@@ -14,6 +14,7 @@
   <a href="page_payment_error.html">Страница ошибки оплаты</a>
   <a href="page_payment_success.html">Страница успешной оплаты</a>
   <a href="footer-test.php">Тест футера</a>
+  <a href="modal-test.php">Тест открытия модальных окон</a>
 </div>
 
 

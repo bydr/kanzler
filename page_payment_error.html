@@ -45,39 +45,41 @@
 
 <!-- modal -->
 <div class="dr-modal dr-modal-sm dr-modal__alert" id="modal-change-payment">
-    <div class="dr-modal__content">
-        <div class="dr-modal__header">
-            <div class="dr-modal__title">
-                <p class="dr-h3"></p>
+    <div class="dr-modal-wrapper">
+        <div class="dr-modal__content">
+            <div class="dr-modal__header">
+                <div class="dr-modal__title">
+                    <p class="dr-h3"></p>
+                </div>
+                <button class="dr-modal__close">
+                    <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.011 6.42627L6.01099 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.01099 6.42627L18.011 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
             </div>
-            <button class="dr-modal__close">
-                <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18.011 6.42627L6.01099 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M6.01099 6.42627L18.011 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </button>
-        </div>
-        <div class="dr-modal__body">
-            <div class="dr-modal__body-content">
-                <p class="dr-text__normal text-center">
-                    Способ оплаты будет изменен на <br><b>"Оплата при получении"</b>
-                </p>
+            <div class="dr-modal__body">
+                <div class="dr-modal__body-content">
+                    <p class="dr-text__normal text-center">
+                        Способ оплаты будет изменен на <br><b>"Оплата при получении"</b>
+                    </p>
+                </div>
+            </div>
+            <div class="dr-modal__footer">
+                <div class="dr-btn-wrapper dr-btn-wrapper__row justify-content-between">
+                    <a href="#"
+                       id="#btn-modal-alert__yes"
+                       onclick="drModalHide(this)"
+                       class="dr-btn dr-btn__brown">Да</a>
+                    <a href="#"
+                       id="#btn-modal-alert__no"
+                       onclick="drModalHide(this)"
+                       class="dr-btn dr-btn__outline">Нет</a>
+                </div>
             </div>
         </div>
-        <div class="dr-modal__footer">
-            <div class="dr-btn-wrapper dr-btn-wrapper__row justify-content-between">
-                <a href="#"
-                   id="#btn-modal-alert__yes"
-                   onclick="drModalHide()"
-                   class="dr-btn dr-btn__brown">Да</a>
-                <a href="#"
-                   id="#btn-modal-alert__no"
-                   onclick="drModalHide()"
-                   class="dr-btn dr-btn__outline">Нет</a>
-            </div>
-        </div>
+        <div class="dr-modal__overlay"></div>
     </div>
-    <div class="dr-modal__overlay"></div>
 </div>
 <!-- modal -->
 
