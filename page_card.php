@@ -150,4 +150,6 @@ require_once('head.php');
 
 </div>
 
-<?php require_once('foot.php'); ?>
+<?php
+require_once("footer.php");
+require_once('foot.php'); ?>
