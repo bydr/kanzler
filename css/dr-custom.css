@@ -466,7 +466,8 @@ html, body {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     color: #fff;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 100%; }
     .dr-btn-iconbox:hover, .dr-btn-iconbox:focus {
       color: #fff; }
     .dr-btn-iconbox .dr-btn-iconbox__icon {
@@ -1370,6 +1371,25 @@ table.dr-table {
   display: none !important; }
 .dr-visible-xs {
   display: none !important; }
+
+.dr-map-select {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out; }
+  .dr-map-select.is-active {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+    .dr-map-select.is-active ~ * {
+      margin-top: 0 !important; }
 
 @media screen and (max-width: 1024px) {
   .post-page .sidebar .collect-box {

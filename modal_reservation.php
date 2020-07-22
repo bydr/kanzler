@@ -101,16 +101,28 @@
                         <div class="dr-form-group">
                             <p class="dr-form-label dr-text__small">Выбрать магазин</p>
                             <div class="dr-form-control">
-                                <a href="#" class="dr-btn-iconbox">
+                                <button class="dr-btn-iconbox" id="dr-show-map">
                                 <span class="dr-btn-iconbox__icon  bg-brown__lighten">
                                     <span class="ic ic-point"></span>
                                 </span>
                                     <span class="dr-btn-iconbox__box bg-brown__light">
                                     На карте
                                 </span>
-                                </a>
+                                </button>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="dr-map-select">
+
+                        <!-- внутри класса dr-map-select расположить карту -->
+
+                        <div class="select_shops_map" id="map">
+                            <!-- YANDEX MAP-->
+                            <div id="ymap" class="contacts-map"></div>
+                            <!-- /YANDEX MAP-->
+                        </div>
+
                     </div>
 
                     <div class="dr-table-wrapper">

@@ -39,24 +39,19 @@ $(document).ready(function() {
 let modalBtnClose = ".dr-modal__close";
 let activeClass = "is-active";
 
+/* открытие модалки по нажатию на кнопку */
 $(".dr-btn").on('click', function (e) {
-
-    if ($(this).hasClass('dr-modal-contact-details')) {
-        e.preventDefault();
-        drModalShow($(this));
-    } else {
-        e.preventDefault();
-        drModalShow($(this));
-    }
-
+    e.preventDefault();
+    drModalShow($(this));
 });
+
+/* закрытие модалки по нажатию на кнопку */
 $(modalBtnClose).on('click', function () {
-    $(this).closest(`.dr-modal`).removeClass(activeClass);
+    drModalHide($(this));
 });
-
 
 function drModalHide(context) {
-    $(context).closest('.dr-modal').find(modalBtnClose).click();
+    $(context).closest('.dr-modal').removeClass(activeClass);
 }
 
 function drModalShow(currentTarget, overlayStatus = true){
@@ -69,10 +64,8 @@ function drModalShow(currentTarget, overlayStatus = true){
     $(modal).find('.dr-modal__overlay').eq(0).css("opacity", overlayStatus ? "1" : "0" );
 }
 
-
+/* кастомный select */
 $(document).ready(function () {
-
-    /* кастомный select */
     $(function () {
         $(document).on('click.simple-select', '.simple-select .simple-select-main', function (e) {
             let $dropdown = $(this).closest('.simple-select');
@@ -152,5 +145,19 @@ $(document).ready(function () {
             }
         });
     });
-    /* кастомный select */
 });
+/* кастомный select */
+
+/* всплытие карты в модалке */
+var mapWrapper = $('.dr-map-select');
+var mapWrapperNext = mapWrapper.next();
+$(window).on('load resize', function () {
+    let mapWrapperHeight = mapWrapper.height();
+    mapWrapperNext.css('margin-top', `${mapWrapperHeight * -1}px`);
+});
+$('#dr-show-map').on('click', function () {
+    if (mapWrapper) {
+        mapWrapper.toggleClass('is-active');
+    }
+});
+/* всплытие карты в модалке */
