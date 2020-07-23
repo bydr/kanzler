@@ -21,7 +21,7 @@
 
                     <div class="dr-reservations-controls">
                         <div class="dr-form-group">
-                            <p class="dr-form-label dr-text__small">Город, улица, метро <a href="#" class="c-blue" id="choice_city">(Выбрать)</a></p>
+                            <p class="dr-form-label dr-text__small">Город</p>
                             <div class="dr-form-control">
                                 <div class="simple-select">
                                     <div class="simple-select-main" tabindex="0" role="combobox" aria-expanded="false">
