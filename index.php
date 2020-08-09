@@ -2,11 +2,13 @@
 
 <div class="link-list"
      style="
+     max-width: 700px;
+     margin: 0 auto;
       width: 100%;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      padding: 20px;">
+      align-items: flex-start;
+      padding: 20px; font-weight: bold;">
   <a href="page_gid_style.php">Гид по стилю</a>
   <a href="page_post.php">Страница статьи</a>
   <a href="page_archive.php">Страница Архив статей</a>
@@ -15,6 +17,11 @@
   <a href="page_payment_success.html">Страница успешной оплаты</a>
   <a href="footer-test.php">Тест футера</a>
   <a href="modal-test.php">Тест открытия модальных окон</a>
+    <br>
+  <a href="mail_new_order.html">1-(Новый-полученный-заказ), 2- (Ваш-заказ-подтвержден-и-передан-в-комплектацию)</a>
+  <a href="mail_order_to_delivery.html">3-(Ваш-заказ-передан-на-доставку-в-курьерскую-службу)</a>
+  <a href="mail_order_delivered.html">4-(Ваш-заказ-доставлен-в-пункт-самовывоза)</a>
+  <a href="mail_order_success.html">5-(Заказ-выполнен)</a>
 </div>
 
 
