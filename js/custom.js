@@ -38,6 +38,7 @@ $(document).ready(function() {
 
 let modalBtnClose = ".dr-modal__close";
 let activeClass = "is-active";
+let activeClassForBody = "dr-modal-open"
 
 /* открытие модалки по нажатию на кнопку */
 $(".dr-btn").on('click', function (e) {
@@ -52,12 +53,15 @@ $(modalBtnClose).on('click', function () {
 
 function drModalHide(context) {
     $(context).closest('.dr-modal').removeClass(activeClass);
+    $('body').removeClass(activeClassForBody);
 }
 
 function drModalShow(currentTarget, overlayStatus = true){
     let btnModalId = currentTarget.data('modal');
     let modal = `.dr-modal[id="${btnModalId}"]`;
+
     if (btnModalId) {
+        $('body').addClass(activeClassForBody);
         $(modal).addClass(activeClass);
     }
 
