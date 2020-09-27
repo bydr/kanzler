@@ -165,3 +165,64 @@ $('#dr-show-map').on('click', function () {
     }
 });
 /* всплытие карты в модалке */
+
+$(document).ready(function () {
+    $("[data-toggle='tab']").on('click', function (e) {
+        e.preventDefault();
+        showHideTabs($(this));
+        showHideTabsContent($(this));
+    });
+});
+
+
+function showHideTabs(tab) {
+    var $navTabs = tab.closest('.dr-nav-tabs'),
+        $navTabsLi = $navTabs.find('li'),
+        $targetLi = tab.closest('li');
+
+    if (!$targetLi.hasClass('active')) {
+        $navTabsLi.each(function () {
+            $(this).removeClass('active');
+        });
+        $targetLi.addClass('active');
+    }
+}
+function showHideTabsContent(tab) {
+    var targetTabPane = $(`.tab-pane[id='${tab.attr('href').replace(/#/, '')}']`);
+    targetTabPane
+        .closest('.tab-content')
+        .find('.tab-pane').each(function () {
+            $(this).removeClass('active')
+        });
+    targetTabPane.addClass('active');
+}
+
+$(document).ready(function () {
+    $(".toggle-content-point").on('click', function (e) {
+        e.preventDefault();
+        var pointItem = $(this)
+            .closest('.point-shop__item');
+
+        /* меняем название кнопки */
+        let btnTextDefault = "";
+        btnTextDefault = $(this).find('.toggle-content-point__text').text();
+        $(this).find('.toggle-content-point__text').text($(this).data('btn-text-alternate'));
+        $(this).data('btn-text-alternate', btnTextDefault);
+
+        pointItem.toggleClass('active');
+        pointItem
+            .find('.point-shop__item-body')
+            .slideToggle(300);
+
+    });
+});
+
+// $(document).ready(function () {
+//     var $target = $('.point-shop__item');
+//     var hold = 300;
+//
+//     $.each($target,function(i,t){
+//         var $this = $(t);
+//         setTimeout(function(){ $this.addClass('in-visible') },i*hold);
+//     });
+// });

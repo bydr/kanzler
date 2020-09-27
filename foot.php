@@ -6,6 +6,7 @@
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=e3cc03a6-f4cf-4fe8-ad47-eedc86ebd525" type="text/javascript"></script>
 <script src="js/map_yandex.js"></script>
 <script src="js/map.js"></script>
+<!--<script src="js/script.js"></script>-->
 <script src="js/custom.js"></script>
 </body>
 </html>

@@ -334,7 +334,7 @@
                 </div>
             </div>
         </div>
-        <div class="dr-modal__overlay"></div>
     </div>
+    <div class="dr-modal__overlay"></div>
 
 </div>

@@ -16,13 +16,16 @@
   <a href="page_payment_error.html">Страница ошибки оплаты</a>
   <a href="page_payment_success.html">Страница успешной оплаты</a>
   <a href="footer-test.php">Тест футера</a>
-  <a href="modal-test.php">Тест открытия модальных окон</a>
+  <a href="modal_reservation-test.php">Тест открытия модального окна бронирования</a>
     <br>
   <a href="mail_new_order.html">1-(Новый-полученный-заказ)</a>
   <a href="mail_order_confirmed.html">2-(Ваш-заказ-подтвержден-и-передан-в-комплектацию)</a>
   <a href="mail_order_to_delivery.html">3-(Ваш-заказ-передан-на-доставку-в-курьерскую-службу)</a>
   <a href="mail_order_delivered.html">4-(Ваш-заказ-доставлен-в-пункт-самовывоза)</a>
   <a href="mail_order_success.html">5-(Заказ-выполнен)</a>
+    <br>
+    <a href="modal_pickuppoints-test.php">Тест открытия модального окна П.Самовывоза</a>
+
 </div>
 
 
