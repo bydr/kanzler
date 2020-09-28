@@ -1948,7 +1948,7 @@ table.dr-table {
     -ms-flex: 1;
     flex: 1;
     min-width: 65%;
-    margin: 0 15px 0 0; }
+    margin: 0 15px 5px 0; }
   .point-shop__item-delivery {
     font-family: "MuseoSansCyrl-700", sans-serif;
     font-weight: bold;
@@ -2032,6 +2032,37 @@ table.dr-table {
   border: 1px solid #eae8e5;
   -webkit-box-shadow: 0 0 20px -11px #2c180b;
   box-shadow: 0 0 20px -11px #2c180b; }
+
+.point-shop__item_selected .point-shop__item-title {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+.point-shop__item_selected .point-shop__item-header {
+  padding-top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 100%;
+  border: none; }
+.point-shop__item_selected_close svg {
+  stroke: #7a5b48; }
+.point-shop__item_selected .point-shop__item-body {
+  background: #f4f3f1;
+  border: 0;
+  margin: 0 -15px;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 @media screen and (max-width: 1024px) {
   .post-page .sidebar .collect-box {
@@ -2166,14 +2197,6 @@ table.dr-table {
   .dr-table-cell {
     white-space: normal; }
 
-  .dr-map-select .point-shop__item.point-shop__item_selected {
-    position: relative;
-    right: auto;
-    top: auto;
-    max-width: initial;
-    -webkit-box-shadow: none;
-    box-shadow: none; }
-
   .dr-operation-controls__item:first-child {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -2274,7 +2297,18 @@ table.dr-table {
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+
+  .point-shop__option {
+    font-size: 13px;
+    line-height: 14px; }
+
+  .point-shop__item-name {
+    font-size: 16px;
+    line-height: 18px; }
+
+  .dr-map-select .point-shop__item.point-shop__item_selected {
+    max-width: 230px; } }
 @media screen and (max-width: 425px) {
   .good-item-image {
     height: 210px; }

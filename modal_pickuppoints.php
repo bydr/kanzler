@@ -64,13 +64,13 @@
                                 </div>
                             </div>
                             <div class="dr-form-group">
-                                <p class="dr-form-label dr-form-label_new dr-text__small">Ваш размер</p>
+                                <p class="dr-form-label dr-form-label_new dr-text__small">Выберите метро</p>
                                 <div class="dr-form-control">
                                     <div class="simple-select simple-select_new">
                                         <div class="simple-select-main" tabindex="0" role="combobox" aria-expanded="false">
                                             <input hidden required type="text" name="sort-view" value="1" data-default-value="1">
                                             <p class="simple-select-selected" data-placeholder="Москва">
-                                                <button type="button" data-id="plan-payment" class="tab">46</button>
+                                                <button type="button" data-id="plan-payment" class="tab">Метро1</button>
                                             </p>
                                             <div class="simple-select-btn-drop">
                                                 <svg width="11" height="6" viewBox="0 0 11 6"  xmlns="http://www.w3.org/2000/svg">
@@ -82,19 +82,19 @@
                                             <div class="simple-select-drop-inner">
                                                 <ul class="simple-select-list" role="listbox">
                                                     <li class="simple-select-item is-active" data-value="1" role="option">
-                                                        <button type="button" data-id="point1" class="tab">47</button>
+                                                        <button type="button" data-id="point1" class="tab">Метро1</button>
                                                     </li>
                                                     <li class="simple-select-item" data-value="2" role="option">
-                                                        <button type="button" data-id="point2" class="tab">48</button>
+                                                        <button type="button" data-id="point2" class="tab">Метро2</button>
                                                     </li>
                                                     <li class="simple-select-item" data-value="3" role="option">
-                                                        <button type="button" data-id="poin3" class="tab">49</button>
+                                                        <button type="button" data-id="poin3" class="tab">Метро3</button>
                                                     </li>
                                                     <li class="simple-select-item" data-value="3" role="option">
-                                                        <button type="button" data-id="poin3" class="tab">50</button>
+                                                        <button type="button" data-id="poin3" class="tab">Метро4</button>
                                                     </li>
                                                     <li class="simple-select-item" data-value="3" role="option">
-                                                        <button type="button" data-id="poin3" class="tab">51</button>
+                                                        <button type="button" data-id="poin3" class="tab">Метро5</button>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -116,15 +116,21 @@
                                             <p class="point-shop__item-name">ТРК “Город” Лефортово</p>
                                             <p class="point-shop__item-delivery">Доставка: 500₽</p>
                                         </div>
-                                        <p class="point-shop__option">
-                                            <svg class="dr-icon">
-                                                <use xlink:href="image/dr-sprite.svg#point"></use>
+                                        <button class="point-shop__item_selected_close">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18.011 6.42627L6.01099 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M6.01099 6.42627L18.011 18.4263" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
-                                            <span>шоссе Энтузиастов, д.12, корп.2, 1 этаж</span>
-                                        </p>
+                                        </button>
                                     </div>
                                     <div class="point-shop__item-body">
                                         <div class="point-shop__options">
+                                            <p class="point-shop__option">
+                                                <svg class="dr-icon">
+                                                    <use xlink:href="image/dr-sprite.svg#point"></use>
+                                                </svg>
+                                                <span>шоссе Энтузиастов, д.12, корп.2, 1 этаж</span>
+                                            </p>
                                             <p class="point-shop__option">
                                                 <svg class="dr-icon">
                                                     <use xlink:href="image/dr-sprite.svg#gift"></use>
