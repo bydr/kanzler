@@ -9,14 +9,15 @@
 
   <!-- текущие необходимые стили на сайте, не стоит использовать повторно -->
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/webdebug.ruble.a.css">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/str.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- текущие необходимые стили на сайте, не стоит использовать повторно -->
 
-  <!-- нужные стили для новых сверстанных страниц -->
+  <!-- нужные стили для новых сверстанных страниц - можно использовать не минифицированный -->
   <link rel="stylesheet" href="css/dr-custom.min.css">
-  <!-- нужные стили для новых сверстанных страниц -->
+  <!-- нужные стили для новых сверстанных страниц - можно использовать не минифицированный -->
 </head>
 <body>
 
