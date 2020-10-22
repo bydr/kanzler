@@ -25,7 +25,10 @@
   <a href="mail_order_success.html">5-(Заказ-выполнен)</a>
     <br>
     <a href="modal_pickuppoints-test.php">Тест открытия модального окна П.Самовывоза</a>
-
+    <br>
+    <a href="checkout.php">Чекаут</a>
+    <a href="auth.php">Авторизация</a>
+    <a href="remember-pass.php">Вспомнить пароль</a>
 </div>
 
 

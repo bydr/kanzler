@@ -226,3 +226,25 @@ $(document).ready(function () {
 //         setTimeout(function(){ $this.addClass('in-visible') },i*hold);
 //     });
 // });
+
+// custom radio
+$('.radio-item input[type="radio"]').on('click', function() {
+
+    var $this = $(this);
+    $($this).parent().siblings().removeClass('active');
+    $($this).parent().addClass('active');
+
+});
+
+
+// custom checkbox
+$('[type="checkbox"]').on('click', function() {
+    var $this = $(this);
+    $($this).closest('label').toggleClass('active');
+
+});
+
+
+// mask inputs
+$('input[name=data-b]').mask('99 . 99 . 9999');
+$('input[name=phone]').mask('+7 (999) 999-99-99');

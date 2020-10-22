@@ -117,7 +117,7 @@ $(document).ready(function() {
 		var city = $('.auto-city-name').val();
 
 		$.ajax({
-			url: '/bitrix/templates/kanzler-template/components/bitrix/news.list/city_menu/set_city.php',
+			url: '/bitrix/templates/kanzler-template/parts/bitrix/news.list/city_menu/set_city.php',
 			type: 'POST',
 			data: formData,
 		}).done(function(data) {
@@ -157,7 +157,7 @@ $(document).ready(function() {
 		var city = $('.check-city-inp').val();
 
 		$.ajax({
-			url: '/bitrix/templates/kanzler-template/components/bitrix/news.list/city_menu/set_city.php',
+			url: '/bitrix/templates/kanzler-template/parts/bitrix/news.list/city_menu/set_city.php',
 			type: 'POST',
 			data: formData,
 		}).done(function(data) {
@@ -1781,7 +1781,7 @@ function add_to_wish(product_id){
 	var current = current_wish_list();
 	if($.inArray(product_id, current) !== -1){
 		$.ajax({
-			url: '/bitrix/templates/kanzler-template/components/brsoft/wishlist.add/spisok/ajax.php',
+			url: '/bitrix/templates/kanzler-template/parts/brsoft/wishlist.add/spisok/ajax.php',
 			type: 'POST',
 			data: {
 				ACTION: 'DELETE',
@@ -1795,7 +1795,7 @@ function add_to_wish(product_id){
 
 	}else{
 		$.ajax({
-			url: '/bitrix/templates/kanzler-template/components/brsoft/wishlist.add/spisok/ajax.php',
+			url: '/bitrix/templates/kanzler-template/parts/brsoft/wishlist.add/spisok/ajax.php',
 			type: 'POST',
 			data: {
 				ACTION: 'ADD',
