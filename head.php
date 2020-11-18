@@ -20,4 +20,21 @@
   <!-- нужные стили для новых сверстанных страниц - можно использовать не минифицированный -->
 </head>
 <body>
+<style>
+    header.header-for-test {
+        position: fixed;
+        background: #fff;
+        z-index: 9;
+        width: 100%;
+        height: 80px;
+        border-bottom: 2px solid #f9f9f9;
+    }
 
+    header.header-for-test ~ * {
+        margin-top: 80px;
+    }
+
+    .scroll-fixed-sidebar {
+        top: 80px;
+    }
+</style>

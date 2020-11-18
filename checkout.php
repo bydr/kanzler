@@ -1,6 +1,9 @@
 <?php
 require_once('head.php');
 ?>
+<header class="header-for-test">
+test-header
+</header>
 <div class="checkout-page">
     <div class="wrapper">
         <div class="dr-grid">
@@ -243,7 +246,7 @@ require_once('head.php');
                 </div>
             </div>
             <div class="dr-col-4">
-                <div class="checkout-sidear">
+                <div class="checkout-sidear" style="width: 380px;">
                     <div class="checkout-login">
                         <a href="#">Вход</a> <span>|</span> <a href="#">Регистрация</a>
                     </div>

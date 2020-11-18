@@ -244,7 +244,31 @@ $('[type="checkbox"]').on('click', function() {
 
 });
 
+$(window).on('load scroll',function() {
+    var height = $(window).scrollTop();
+    var ctaForm = $('.scroll-fixed-sidebar');
+    var activeSticky = 100;
+    var footer = $('footer');
+
+    if ( $(this).width() > 768) {
+        var scrollTop = $(this).scrollTop(),
+            h = $(this).height(),
+            offset = footer.offset().top + 70;
+        if (offset - scrollTop > h) {
+            if(height > activeSticky){
+                ctaForm.addClass('sticky');
+                ctaForm.css("top", height + $('header').outerHeight());
+            } else{
+                ctaForm.removeClass('sticky');
+                ctaForm.css("top", "auto");
+            }
+        }
+    }
+
+});
 
 // mask inputs
-$('input[name=data-b]').mask('99 . 99 . 9999');
-$('input[name=phone]').mask('+7 (999) 999-99-99');
+// $('input[name=data-b]').mask('99 . 99 . 9999');
+// $('input[name=phone]').mask('+7 (999) 999-99-99');
+
+

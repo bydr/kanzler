@@ -24,7 +24,8 @@
   <a href="mail_order_delivered.html">4-(Ваш-заказ-доставлен-в-пункт-самовывоза)</a>
   <a href="mail_order_success.html">5-(Заказ-выполнен)</a>
     <br>
-    <a href="modal_pickuppoints-test.php">Тест открытия модального окна П.Самовывоза</a>
+    <a href="modal_pickuppoints-test.php">Тест открытия модального окна "П.Самовывоза"</a>
+    <a href="modal_avalaible_count_prod_test.php">Тест открытия модального окна "Наличие товара в магазине"</a>
     <br>
     <a href="checkout.php">Чекаут</a>
     <a href="auth.php">Авторизация</a>
