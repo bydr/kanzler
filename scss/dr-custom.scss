@@ -2207,7 +2207,7 @@ table {
     padding-right: 15px;
   }
 }
-.textarea_default {
+.textarea_default, .checkout-page textarea {
   resize: vertical !important;
 }
 
@@ -2221,3 +2221,6 @@ table {
 @import "parts/auth/auth-main";
 /* styles auth parts */
 
+/* manual fixed css */
+@import "parts/fixed_styles";
+/* manual fixed css */
