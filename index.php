@@ -27,6 +27,8 @@
     <a href="modal_pickuppoints-test.php">Тест открытия модального окна "П.Самовывоза"</a>
     <a href="modal_avalaible_count_prod_test.php">Тест открытия модального окна "Наличие товара в магазине"</a>
     <br>
+    <a href="page_delivery_and_payment.php">Страница "Доставка и оплата"</a>
+    <br>
     <a href="checkout.php">Чекаут</a>
     <a href="auth.php">Авторизация</a>
     <a href="remember-pass.php">Вспомнить пароль</a>
