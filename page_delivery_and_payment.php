@@ -18,40 +18,7 @@ require_once('head.php');
                 <div class="dr-form-group max-w-430">
                     <p class="dr-form-label dr-form-label_new dr-text__small">Выберите город или регион</p>
                     <div class="dr-form-control">
-                        <div class="simple-select simple-select_new">
-                            <div class="simple-select-main" tabindex="0" role="combobox" aria-expanded="false">
-                                <input hidden required type="text" name="sort-view" value="1" data-default-value="1">
-                                <p class="simple-select-selected" data-placeholder="Москва">
-                                    <button type="button" data-id="plan-payment" class="tab">Москва</button>
-                                </p>
-                                <div class="simple-select-btn-drop">
-                                    <svg width="11" height="6" viewBox="0 0 11 6"  xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5.35139 5.64556L1.05168 1.34571C0.778022 1.07219 0.778022 0.628717 1.05168 0.355327C1.32509 0.0819156 1.76854 0.0819156 2.04193 0.355327L5.84652 4.16003L9.65098 0.355438C9.9245 0.0820266 10.3679 0.0820266 10.6413 0.355438C10.9148 0.62885 10.9148 1.0723 10.6413 1.34582L6.34153 5.64567C6.20476 5.78238 6.02569 5.85065 5.84654 5.85065C5.6673 5.85065 5.4881 5.78224 5.35139 5.64556Z" fill="inherit"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="simple-select-drop">
-                                <div class="simple-select-drop-inner">
-                                    <ul class="simple-select-list" role="listbox">
-                                        <li class="simple-select-item is-active" data-value="1" role="option">
-                                            <button type="button" data-id="point1" class="tab">Москва</button>
-                                        </li>
-                                        <li class="simple-select-item" data-value="2" role="option">
-                                            <button type="button" data-id="point2" class="tab">Москва2</button>
-                                        </li>
-                                        <li class="simple-select-item" data-value="3" role="option">
-                                            <button type="button" data-id="poin3" class="tab">Москва3</button>
-                                        </li>
-                                        <li class="simple-select-item" data-value="3" role="option">
-                                            <button type="button" data-id="poin3" class="tab">Москва4</button>
-                                        </li>
-                                        <li class="simple-select-item" data-value="3" role="option">
-                                            <button type="button" data-id="poin3" class="tab">Москва5</button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- place for dadata -->
                     </div>
                 </div>
                 <!--information delivery text-->
