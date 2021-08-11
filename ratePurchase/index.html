@@ -29,15 +29,42 @@
         <p>Недавно вы совершали покупку в KANZLER, надеемся Вам все понравилось и подошло. <br> Будем признательны, если вы поделитесь впечатлением
             <br> и оцените покупки в нашей сети.</p>
         <br><br>
-        <div class="star-container">
-            <div class="star"><svg viewBox="0 0 18 18" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="inherit"/></svg></div>
-            <div class="star"><svg viewBox="0 0 18 18" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="inherit"/></svg></div>
-            <div class="star"><svg viewBox="0 0 18 18" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="inherit"/></svg></div>
-            <div class="star"><svg viewBox="0 0 18 18" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="inherit"/></svg></div>
-            <div class="star"><svg viewBox="0 0 18 18" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="inherit"/></svg></div>
-        </div>
-        <br><br>
+
         <form action="/" class="form">
+            <div class="review-rating">
+                <input type="radio" id="rate-5" name="review-rating-group" tabindex="0" required value="5" class="hidden">
+                <label for="rate-5" class="star">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#ic_star"></use>
+                    </svg>
+                </label>
+                <input type="radio" id="rate-4" name="review-rating-group" tabindex="0" required value="4" class="hidden">
+                <label for="rate-4" class="star">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#ic_star"></use>
+                    </svg>
+                </label>
+                <input type="radio" id="rate-3" name="review-rating-group" tabindex="0" required value="3" class="hidden">
+                <label for="rate-3" class="star">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#ic_star"></use>
+                    </svg>
+                </label>
+                <input type="radio" id="rate-2" name="review-rating-group" tabindex="0" required value="2" class="hidden">
+                <label for="rate-2" class="star">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#ic_star"></use>
+                    </svg>
+                </label>
+                <input type="radio" id="rate-1" name="review-rating-group" tabindex="0" required value="1" class="hidden">
+                <label for="rate-1" class="star">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#ic_star"></use>
+                    </svg>
+                </label>
+
+            </div>
+            <br><br>
             <div class="form-group">
                 <label for="comment">Комментарий по оценке или пожелания по улучшению:</label>
                 <textarea name="comment" id="comment"></textarea>
@@ -121,6 +148,10 @@
             </div>
             <br><br><br>
             <p>Благодарим за оценку! Всегда Вам рады!</p>
+            <br><br>
+            <div class="btn-row-center">
+                <button type="submit">Отправить</button>
+            </div>
         </form>
     </div>
 </section>

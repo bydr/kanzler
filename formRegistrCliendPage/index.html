@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<div class="form-page">
+    <div class="form-page__content">
+        <div class="form-header bg-brown">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <form action="" class="form">
+            <div class="form-group">
+                <label for="surname">*Фамилия</label>
+                <input class="form-control"  type="text" name="surname" id="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="name">*Имя</label>
+                <input class="form-control"  type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="patronymic">Отчество</label>
+                <input class="form-control"  type="text" name="patronymic" id="patronymic">
+            </div>
+            <div class="form-group__row">
+                <div class="form-group">
+                    <label for="phone">*Телефон</label>
+                    <input class="form-control mask-tel"  type="text" name="phone" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">*E-mail</label>
+                    <input class="form-control"  type="email" name="email" id="email" required>
+                </div>
+            </div>
+            <div class="form-group__row">
+                <div class="radio-group radio-group__sex">
+                    *
+                    <label class="radio-item">
+                        <input checked class="form-control"  type="radio" name="userSex" value="M">
+                        <span class="radio-item__box"></span>
+                        <span class="radios__value-name">муж</span>
+                    </label>
+                    <label class="radio-item">
+                        <input class="form-control"  type="radio" name="userSex" value="F">
+                       <span class="radio-item__box"></span>
+                        <span class="radios__value-name">жен</span>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date-burn">*Дата рождения</label>
+                    <input class="form-control mask-date"  type="text" name="date-burn" id="date-burn" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="card-number">*Номер карты</label>
+                <input class="form-control mask-card"  type="text" maxlength="13"
+                       name="card-number"
+                       id="card-number" required>
+            </div>
+            <p class="text-size_small notice-important"><b>*Обязательны для заполнения</b></p>
+            <div class="checkbox-group">
+                <p class="checkbox-group__title">Откуда вы узнали о KANZLER?</p>
+                <div class="checkbox-group__inner">
+                    <div class="col">
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck1">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">реклама на ТВ</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck2">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">реклама на радио</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck3">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">реклама в ТЦ</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck4">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">реклама в интернете</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck5">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">являюсь постоянным клиентом</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck5">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">являюсь постоянным клиентом</span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck6">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">реклама в соцсетях</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck7">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">наружная реклама</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck8">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">посоветовали знакомые</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck9">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">проходил мимо, решил зайти</span>
+                        </label>
+                    </div>
+                </div>
+
+                <label class="dr-checkbox dr-checkbox_important js-checkbox__other" id="other1">
+                    <input class="form-control"  name="chckgroup1" type="checkbox" value="chck10">
+                    <span class="dr-checkbox__box"></span>
+                    <span class="dr-checkbox-value-name">Другое <span class="text-size_small">(укажите пожалуйста что именно)</span></span>
+                </label>
+
+                <div class="form-group">
+                    <input type="text" name="other1" class="form-control form-control__other">
+                </div>
+
+            </div>
+            <div class="checkbox-group">
+                <p class="checkbox-group__title">Род занятий?</p>
+                <div class="checkbox-group__inner">
+                    <div class="col">
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup2" type="checkbox" value="chck21">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Руководителя высшего звена/топ менеджер</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup2" type="checkbox" value="chck22">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Госслужащий</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup2" type="checkbox" value="chck23">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Предприниматель</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup2" type="checkbox" value="chck24">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Менеджер/специалист</span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup2" type="checkbox" value="chck25">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Студент</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important">
+                            <input class="form-control"  name="chckgroup2" type="checkbox" value="chck26">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Пенсионер</span>
+                        </label>
+                        <label class="dr-checkbox dr-checkbox_important js-checkbox__other" id="other2">
+                            <input class="form-control"  name="chckgroup1" type="checkbox" value="chck57">
+                            <span class="dr-checkbox__box"></span>
+                            <span class="dr-checkbox-value-name">Другое</span>
+                        </label>
+
+                        <div class="form-group">
+                            <input type="text" name="other2" class="form-control form-control__other">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p class="text-size_small">Заполняя данную форму, я даю согласие ООО «ГРАНПОСТ» (далее «Организатор») на систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных, а также информацию о произведенных мною покупках, их сумме, способах и средствах их оплаты, в целях, связанных с возможностью предоставления информации и рекламы о товарах и/или услугах, которые потенциально могут предоставлять для меня интерес, а также в целях сбора и обработки статистической информации и проведения маркетинговых исследований. Также я выражаю согласие на то что Организатор вправе поручить обработку моих персональных данных любому другому лицу на основании заключенного с ним договора. Лицо, осуществляющее обработку моих персональных данных по поручению Организатора, обязуется обеспечить конфиденциальность информации и гарантировать ее защиту, соблюдать  принципы и правила обработки персональных данных, предусмотренных действующим законодательством. Согласие может быть отозвано мной в любой момент путем направления письменного уведомления. Также я разрешаю Организатору направлять мне информационные и рекламные сообщения  на указанные мной номер мобильного телефона и адрес электронной почты. Заполняя данную форму, я подтверждаю, что электронная анкета имеет такую же юридическую силу, что и анкета бумажном виде</p>
+            <br><br>
+            <div class="form-group__row send-code">
+                <a href="#" class="btn-custom">Отправить код</a>
+                <input type="text" class="form-control text-center" placeholder="Ввести код">
+            </div>
+            <br>
+            <br>
+            <div class="w-100 text-center d-flex justify-content-center">
+                <button type="submit" class="btn-custom">Зарегистрировать</button>
+            </div>
+        </form>
+        <br><br><br>
+    </div>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+
+<script>
+    let $ = jQuery.noConflict();
+
+    //input mask for phone
+    $(function () {
+        const optionsMaskPhone = {
+            placeholder: '+7',
+            translation: {
+                '+': null,
+                '7': null,
+                '_': {pattern: /\d/, recursive: true},
+            },
+            clearIfNotMatch: true,
+        };
+        $('.mask-tel').mask('+7(000)000-00-00', optionsMaskPhone);
+        $('.mask-date').mask('00.00.0000');
+        $('.mask-card').mask('0000000000000');
+    });
+
+</script>
+</body>
+</html>
